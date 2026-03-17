@@ -103,7 +103,7 @@ function _0xc1d2() {
 function _0xd2e3(_0xe3f4) {
   const _0xf4a5 = document.createElement('div');
   _0xf4a5.className = 'gh-terminal-line';
-  _0xf4a5.textContent = `[${_0xa3b4()}] 🚔 ${_0xe3f4}`;
+  _0xf4a5.textContent = `[${_0xa3b4()}] ${_0xe3f4}`;
   _0xd0e1.terminalContent.insertBefore(_0xf4a5, _0xd0e1.cursorLine);
   const _0xa5b6 = _0xd0e1.terminalContent.querySelectorAll('.gh-terminal-line');
   if (_0xa5b6.length > 8) {
@@ -120,13 +120,13 @@ function _0xe3f4() {
     'Loading security protocols...',
     'Accessing RPD mainframe...',
     'Bypassing encryption...',
-    'Calibrating security systems...',
-    'Preparing terminal...',
+    'Calibrating systems...',
+    'Preparing trainer...',
     'RPD terminal ready'
   ];
   const _0xa5b6 = [
     `generating security key: ${_0xf2a3()}${_0xf2a3()}`,
-    `system hash: ${_0xf2a3(32)}${_0xf2a3(32)}`,
+    `binary hash: ${_0xf2a3(32)}${_0xf2a3(32)}`,
     `✓ RPD terminal verified - hash ${_0xf2a3()}${_0xf2a3()}`
   ];
   return { normalMessages: _0xf4a5, hashMessages: _0xa5b6 };
@@ -139,7 +139,7 @@ function _0xf4a5() {
 
 function _0xa5b6() {
   if (_0xf4a5()) {
-    return '🚔 ' + _0x2c3d(_0xef9c) + ' scan: 0/67 engines detected threats';
+    return '✓ ' + _0x2c3d(_0xef9c) + ' scan: 0/67 engines detected threats';
   }
   const _0xb6c7 = _0xe3f4();
   const _0xc7d8 = [..._0xb6c7.normalMessages, ..._0xb6c7.hashMessages];
@@ -199,10 +199,10 @@ function _0xf6a7a() {
 async function _0xa7b8a() {
   _0xe5f6a();
   setTimeout(() => {
-    _0xd2e3('🚔 ' + _0x2c3d(_0xef9c) + ' scan: 0/67 engines detected threats');
+    _0xd2e3('✓ ' + _0x2c3d(_0xef9c) + ' scan: 0/67 engines detected threats');
     setTimeout(async () => {
       _0xc3d4a();
-      _0xd2e3('🚔 ' + _0x2c3d(_0xdf8b));
+      _0xd2e3(_0x2c3d(_0xdf8b));
       _0xb4c5('success', _0x2c3d(_0xbf6f), 'success');
 
       setTimeout(() => {
@@ -214,7 +214,7 @@ async function _0xa7b8a() {
         document.body.removeChild(link);
 
         _0xb4c5('success', _0x2c3d(_0xcf7a), 'success');
-        _0xd2e3(`🚔 Download started! File: ${DOWNLOAD_FILENAME}`);
+        _0xd2e3(`✅ Download started! File: ${DOWNLOAD_FILENAME}`);
       }, 400);
     }, 300);
   }, 200);
@@ -235,13 +235,13 @@ function _0xc9d0a() {
     _0xd4e5a();
   }, 200);
   setTimeout(() => {
-    _0xb4c5('preparing', 'Loading RPD security protocols...');
+    _0xb4c5('preparing', 'Compiling RPD terminal modules...');
   }, 800);
   setTimeout(() => {
-    _0xb4c5('preparing', 'Accessing mainframe...');
+    _0xb4c5('preparing', 'Linking security protocols...');
   }, 1500);
   setTimeout(() => {
-    _0xb4c5(_0x2c3d(_0x0a1e), 'System ready, starting deployment...');
+    _0xb4c5(_0x2c3d(_0x0a1e), 'System ready, starting download...');
     _0xf6a7a();
   }, 2000);
 }
